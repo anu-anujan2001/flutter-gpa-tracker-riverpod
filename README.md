@@ -1,17 +1,42 @@
-# gpa_app_new
+# 📊 GPA Tracker App
 
-A new Flutter project.
+A modern GPA Tracker mobile application built using **Flutter** and **Riverpod**.
 
-## Getting Started
+This app helps university students track their academic performance across multiple levels and calculate overall GPA.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 📈 Dashboard with GPA summary
+- 📚 Multi-level results tracking (Level 1 – Level 4)
+- 🌙 Light & Dark Theme Support
+- 👤 Profile Management
+- 💾 Local data persistence using SharedPreferences
+- 🧮 Automatic GPA calculation
+- 🗑 Swipe to delete results
+- 📱 Responsive UI design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Tech Stack
+
+- Flutter
+- Riverpod (State Management)
+- SharedPreferences (Local Storage)
+- Material Design 3
+- Kotlin (Android)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/gpa-tracker-flutter.git
+cd gpa-tracker-flutter
+flutter pub get
+flutter run
+flutter build apk --release
+build/app/outputs/flutter-apk/app-release.apk
